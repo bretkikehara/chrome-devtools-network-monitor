@@ -1,0 +1,17 @@
+{
+	"name": "MyNetworkExt",
+  "manifest_version": 2,
+  "version": "1.0",
+  "description": "Test",
+	"permissions": [
+    "webRequest",
+    "http://*/*",
+    "https://*/*"
+	],
+  "devtools_page": "devtools.html",
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  }
+}
